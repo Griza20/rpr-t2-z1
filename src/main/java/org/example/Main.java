@@ -1,5 +1,11 @@
-package org.example;public class Main {
+package org.example;
+import java.util.Scanner;
+
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        if(args[0].equals("sinus")) {
+            System.out.println(Matematika.sinus(Double.parseDouble(args[1])));
+        }
     }
 }
